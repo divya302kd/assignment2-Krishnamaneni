@@ -17,3 +17,11 @@ Rajiv Gandhi International Airport is near to Salar Jung museum
     1. Terminal Departure
     2. Come out from airport
     3. Book a cab to go to Salar jung museum
+* Jamal market shopping complex
+    * Fruits
+    * Electronics
+* Nizam museum
+* Chowmahalla Palace
+* Laad bazar
+    * shopping
+    * clothes
