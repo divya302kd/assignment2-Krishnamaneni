@@ -38,4 +38,10 @@ The following table describes famous cities everyone must visit.
 | London     | British museum   |5 hours|
 | Paris      | Eiffel tower     |5 hours|
 
+***
+# Pithy Quotes
+>"Life is a journey, not a destination."
+>Author: *Ralph Waldo Emerson*
+>"Enthusiasm makes up for a host of deficiencies."
+>Author: *Barack Obama*
 
