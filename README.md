@@ -45,3 +45,39 @@ The following table describes famous cities everyone must visit.
 >"Enthusiasm makes up for a host of deficiencies."
 >Author: *Barack Obama*
 
+***
+# Code fencing
+>Material Design has been all over the place lately. One part of it consists on stacking layers on top of each others like real paper sheets. To achieve such an effect in CSS, we need to use the box-shadow property. To avoid having to manually write the shadows every time, we can build a little Sass mixin for it. The only thing this mixin will do is outputting a box-shadow declaration based on the given $depth (from 0 to 5). Shadows will actually be computed by two functions: bottom-shadow and top-shadow. Quick link to the source<https://stackoverflow.com/questions/17098818/what-is-wrong-with-my-box-shadow-sass-mixin>
+
+```
+@mixin card($depth) {
+  @if $depth < 1 {
+    box-shadow: none;
+  } @else if $depth > 5 {
+    @warn "Invalid $depth `#{$depth}` for mixin `card`.";
+  } @else {
+    box-shadow: bottom-shadow($depth), top-shadow($depth);  
+  }
+}
+@function top-shadow($depth) {
+  $primary-offset: nth(1.5 3 10 14 19, $depth) * 1px;
+  $blur: nth(1.5 3 10 14 19, $depth) * 4px;
+  $color: rgba(black, nth(.12 .16 .19 .25 .30, $depth));
+
+  @return 0 $primary-offset $blur $color;
+}
+
+/// Computes a bottom-shadow for a card effect.
+/// @param {Number} $depth - depth level
+/// @return {List}
+@function bottom-shadow($depth) {
+  $primary-offset: nth(1.5 3 6 10 15, $depth) * 1px;
+  $blur: nth(1 3 3 5 6, $depth) * 4px;
+  $color: rgba(black, nth(.24 .23 .23 .22 .22, $depth));
+
+  @return 0 $primary-offset $blur $color;
+}
+```
+Quick link to the code<https://css-tricks.com/snippets/sass/material-shadows-mixin/>
+
+
