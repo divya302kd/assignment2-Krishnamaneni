@@ -29,7 +29,7 @@ Rajiv Gandhi International Airport is near to Salar Jung museum
 **[link to aboutme](AboutMe.md)**
 
 ***
-# Table
+# About famous cities
 The following table describes famous cities everyone must visit.
 |Name of city|Important location|Time   |
 |:---------: |:----------------:|:-----:|
