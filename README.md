@@ -27,3 +27,15 @@ Rajiv Gandhi International Airport is near to Salar Jung museum
     * clothes
 
 **[link to aboutme](AboutMe.md)**
+
+***
+# Table
+The following table describes famous cities everyone must visit.
+|Name of city|Important location|Time   |
+|:---------: |:----------------:|:-----:|
+| Newyork    | Statue of Liberty|3 hours|
+| Tokyo      | tokyo skytree    |4 hours|
+| London     | British museum   |5 hours|
+| Paris      | Eiffel tower     |5 hours|
+
+
