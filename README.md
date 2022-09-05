@@ -3,8 +3,7 @@
 ## My favourite museum is Salar Jung museum
 Museums are buildings in which we see many things of **artistic**, cultural, historical, traditional and objects of **scientific** interest. 
 ***
-# Airport near to museum
-George Best Rajiv Gandhi International Airport is near to Salar Jung museum
+Rajiv Gandhi International Airport is near to Salar Jung museum
 ## Route map to Titanic museum
 1. Maryville
 2. Kansas city
